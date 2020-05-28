@@ -3,13 +3,14 @@
   "name": "Imperialisnt",
   "version": "0.1",
   "description": "Imperial sucks :(",
-  "icons": {
-    "48": "icon.jpg"
-  },
   "content_scripts": [
     {
-      "matches": ["*://*"],
-      "js": ["replace.js"]
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "replace.js"
+      ]
     }
   ]
 }
